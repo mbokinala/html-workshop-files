@@ -1,41 +1,57 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>My Family</title>
         <meta charset="utf-8">
-        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab"
-              rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="index.css">
     </head>
-    
+
     <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Home</button>
+
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                document.getElementById("myBtn").style.display = "block";
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                window.location.replace("index.html");
+            }
+
+        </script>
+
         <center>
             <h1>My Family</h1>
             <h3>My family is an interesting bunch. Here's a list of the people I live with:</h3>
-            
+
             <ul>
                 <li>
                     Abinav - My Bro
                     <br/>
-                    <img src="img/abinav.png" alt="abinav"/>
-                    <br/>
-                    My brother thinks he's cool. He really isn't.
+                    <img src="img/abinav.png" alt="abinav" />
+                    <br/> My brother thinks he's cool. He really isn't.
                 </li>
                 <hr>
                 <li>
                     Dad
                     <br/>
-                    <img src="img/dad.png" alt="dad"/>
-                    <br/>
-                    He's the guy who got me into coding. But he never lets me forget it. (According to him, I owe him big $$$).
+                    <img src="img/dad.png" alt="dad" />
+                    <br/> He's the guy who got me into coding. But he never lets me forget it. (According to him, I owe him big $$$).
                 </li>
                 <hr>
                 <li>
                     Mom
                     <br/>
-                    <img src="img/mom.png" alt="mom"/>
-                    <br/>
-                    Very hardworking, dedicated, and sincere... towards my brother
+                    <img src="img/mom.png" alt="mom" />
+                    <br/> Very hardworking, dedicated, and sincere... towards my brother
                 </li>
                 <hr/>
                 <li>
@@ -45,9 +61,10 @@
                 </li>
             </ul>
         </center>
-        
+
         <footer>
             <a href="index.html">Back to Home</a>
         </footer>
     </body>
+
 </html>
