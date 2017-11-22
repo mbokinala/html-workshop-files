@@ -16,3 +16,10 @@ td {
 body {
     font-family: 'Josefin Slab', serif;
 }
+ul {
+    list-style-type: none
+}
+
+li {
+    font-weight: bold
+}
