@@ -1,3 +1,18 @@
 body {
     background-color: antiquewhite
 }
+
+th {
+    font-size: 25pt;
+    font-weight: bold;
+    font-style: italic;
+}
+
+td {
+    text-align: center;
+    font-size: 20pt;
+}
+
+body {
+    font-family: 'Josefin Slab', serif;
+}
