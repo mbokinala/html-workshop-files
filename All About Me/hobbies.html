@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My Family</title>
+        <meta charset="utf-8">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Slab" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+
+    <body>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Home</button>
+
+        <script>
+            // When the user scrolls down 20px from the top of the document, show the button
+            window.onscroll = function() {
+                scrollFunction()
+            };
+
+            function scrollFunction() {
+                document.getElementById("myBtn").style.display = "block";
+            }
+
+            // When the user clicks on the button, scroll to the top of the document
+            function topFunction() {
+                window.location.replace("index.html");
+            }
+
+        </script>
+
+        <center>
+            <h1>My Hobbies</h1>
+            <h3>My family is an interesting bunch. Here's a list of the people I live with:</h3>
+
+            
+        </center>
+
+        <footer>
+            <a href="index.html">Back to Home</a>
+        </footer>
+    </body>
+
+</html>
