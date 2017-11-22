@@ -29,3 +29,9 @@ hr {
     size: 30px;
     width: 50%;
 }
+
+.img_alt {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+}
